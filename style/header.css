@@ -21,12 +21,13 @@
   margin-left: -25px;
 }
 .header__navbar {
-  padding-top: 41px;
+  padding-top: 13px;
+  width: 650px;
   font-size: 10px;
+  font-weight: 400;
   display: flex;
   justify-content: space-between;
-  width: 650px;
-  font-weight: 400;
+  align-content: center;
 }
 .header__navbar a:focus {
   color: #cc2229;
@@ -34,7 +35,7 @@
 }
 
 #is {
-  font-weight: 700;
+  font-weight: bold;
   text-decoration: underline;
 }
 .header__btn {
@@ -44,7 +45,7 @@
   height: 37px;
 }
 .header__content {
-  background-image: url(../images/Mask.svg), url(../images/header-oval.svg);
+  background-image: url(../images/header/mask.svg), url(../images/header/header-oval.svg);
   background-position: right top, right center;
   background-repeat: no-repeat, no-repeat;
 }
@@ -74,7 +75,7 @@
 }
 
 .header__inner-info li::before {
-  content: url("../images/flag.svg");
+  content: url("../images/header/flag.svg");
   padding-right: 43px;
 }
 .header__inner-form {
@@ -99,7 +100,7 @@
   width: 535px;
   margin-left: -2px;
   align-items: center;
-  background: url(../images/line-form.svg) no-repeat center center;
+  background: url(../images/header/bg-line.svg) no-repeat center center;
   font-family: inherit;
 }
 
@@ -131,7 +132,7 @@
 .form-arrow {
   width: 154px;
   height: 58px;
-  background: url(../images/form-arrow.svg) no-repeat center center;
+  background: url(../images/header/bg-arrow.svg) no-repeat center center;
 }
 
 .form-block {
