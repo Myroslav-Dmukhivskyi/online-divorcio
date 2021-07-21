@@ -1,0 +1,58 @@
+.easy-online-divorce__title {
+  color: #575c6b;
+  padding-top: 130px;
+}
+.easy-online-divorce__inner {
+  display: flex;
+  margin-bottom: 70px;
+}
+.easy-online-divorce__images {
+  width: 600px;
+}
+
+#oval-freedom {
+  position: absolute;
+  z-index: 1;
+}
+#photo-freedom {
+  position: absolute;
+  margin-top: -50px;
+  z-index: 2;
+}
+.easy-online-divorce__content {
+  width: 580px;
+}
+.content-box__title {
+  color: #ff6e00;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 700;
+  padding-top: 30px;
+}
+.content-box__text {
+  color: #575c6b;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  padding-top: 16px;
+}
+
+@media (max-width: 375px) {
+  .easy-online-divorce__title {
+    padding-top: 0;
+    margin: 20px 60px 0 84px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.363636px;
+    text-align: center;
+  }
+  .content-box__title {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .easy-online-divorce__images{
+    display: none;
+  }
+}

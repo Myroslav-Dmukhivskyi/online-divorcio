@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo:wght@300&display=swap");
+
+@import "./header.css";
+@import "./pasos.css";
+@import "./easy-online-divorce.css";
+@import "./news.css";
+@import "./why-we.css";
+@import "./commitment.css";
+@import "./reviews.css";
+@import "./footer.css";
+
+body {
+  font-family: "Exo", sans-serif;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 300;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+}
+
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+h2 {
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 48px;
+}
+
+.btn {
+  color: white;
+  text-transform: uppercase;
+  background: #cc2229;
+  border-color: #cc2229;
+  border-radius: 5px;
+  box-shadow: none;
+}
+
+.btn:hover{
+color: #cc2229;
+background: #ffffff;
+transition: all 0.2s;
+}
+
+
+@media (max-width: 375px){
+  .container{
+    max-width: 343px;
+    margin: 0 auto;
+  }
+}
+
+
+
+
+
+
+
+
+

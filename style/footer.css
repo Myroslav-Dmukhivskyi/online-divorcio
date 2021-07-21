@@ -1,0 +1,29 @@
+.footer {
+  font-size: 12px;
+  background: #9095a4;
+  color: #ffffff;
+}
+.contacts-box {
+  display: flex;
+  line-height: 20px;
+}
+.divorcio__states {
+  display: flex;
+}
+.divorcio__states-box{
+  line-height: 17px;
+}
+.contacts-box{
+  padding: 32px 0;
+}
+#number{
+  padding-left: 63px;
+}
+.footer__copy{
+  line-height: 16px;
+  padding-bottom: 30px;
+}
+.footer__copy p{
+  margin-top: 12px;
+}
+

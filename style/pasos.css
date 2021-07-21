@@ -1,0 +1,77 @@
+.pasos {
+  width: 900px;
+  height: 230px;
+  margin: 0 auto;
+}
+.pasos__title {
+  padding: 80px 0 55px;
+  color: #ff7700;
+}
+.pasos__steps {
+  margin: 0 140px 0 140px;
+  display: flex;
+  justify-content: space-between;
+}
+.pasos article {
+  width: 100px;
+  height: 137px;
+  font-size: inherit;
+  font-weight: 700;
+  line-height: 23px;
+  text-align: center;
+}
+.oval {
+  margin-top: -75px;
+  margin-left: 0px;
+  width: 78px;
+  height: 78px;
+  border-radius: 47%;
+  mix-blend-mode: normal;
+  transform: skewX(-1deg);
+}
+
+.arrow {
+  font-size: 18px;
+  color: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pasos__steps--item1 .oval {
+  background: #dbdbdb;
+  opacity: 24%;
+}
+.pasos__steps--item1 p {
+  color: #b7b4b4;
+}
+.pasos__steps--item2 .oval {
+  background: #dbdbdb;
+  opacity: 58%;
+}
+.pasos__steps--item2 p {
+  color: #575c6b;
+  opacity: 0.63;
+}
+.pasos__steps--item3 .oval {
+  background: #ffbf00;
+  opacity: 30%;
+}
+.pasos__steps--item3 p {
+  color: #ffc300;
+}
+.pasos__steps--item4 .oval {
+  background: #feaf4d;
+  opacity: 53%;
+}
+.pasos__steps--item4 p {
+  color: #ff7300;
+}
+.arrow-right {
+  border: solid #575c6b;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}

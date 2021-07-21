@@ -1,0 +1,19 @@
+.news {
+    margin-top: 200px;
+    height: 175px;
+    background-color: #f3f3f3;
+  }
+  .news__title {
+    padding: 33px 0 30px;
+    color: #575c6b;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 38px;
+    text-align: center;
+  }
+  .news__inner {
+    margin-left: 240px;
+    width: 700px;
+    display: flex;
+    justify-content: space-around;
+  }
