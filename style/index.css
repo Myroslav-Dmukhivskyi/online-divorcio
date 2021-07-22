@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Exo:wght@300&display=swap");
 
 @import "./header.css";
+@import "./jumbotron.css";
 @import "./pasos.css";
 @import "./easy-online-divorce.css";
 @import "./news.css";
@@ -22,8 +23,9 @@ a {
 }
 
 .container {
-  max-width: 1180px;
+  max-width: 1220px;
   margin: 0 auto;
+  width: 90%;
 }
 h2 {
   font-size: 36px;
@@ -48,12 +50,6 @@ transition: all 0.2s;
 }
 
 
-@media (max-width: 375px){
-  .container{
-    max-width: 343px;
-    margin: 0 auto;
-  }
-}
 
 
 

@@ -26,7 +26,7 @@
   color: #ff6e00;
   font-size: 24px;
   line-height: 32px;
-  font-weight: 700;
+  font-weight: bold;
   padding-top: 30px;
 }
 .content-box__text {
@@ -35,6 +35,69 @@
   font-weight: 400;
   line-height: 21px;
   padding-top: 16px;
+}
+@media (max-width: 1200px) {
+  .easy-online-divorce__title {
+    padding-top: 90px;
+  }
+  .easy-online-divorce__images {
+    width: 60%;
+  }
+  #photo-freedom {
+    width: 45%;
+  }
+  #oval-freedom {
+    width: 45%;
+  }
+}
+@media (max-width: 992px) {
+  .easy-online-divorce__title {
+    padding-top: 70px;
+    text-align: center;
+  }
+  .easy-online-divorce__images {
+    width: 60%;
+  }
+  #photo-freedom {
+    width: 40%;
+  }
+  #oval-freedom {
+    width: 40%;
+  }
+  .content-box__title {
+    font-size: 22px;
+    line-height: 26px;
+    padding-top: 22px;
+  }
+
+  .content-box__text {
+    display: block;
+    font-size: 12px;
+    line-height: 17px;
+    padding-top: 10px;
+  }
+}
+@media (max-width: 768px) {
+
+  .easy-online-divorce__inner {
+    display: block;
+  }
+  .easy-online-divorce__images {
+    display: none;
+  }
+  .easy-online-divorce__content {
+    width: 100%;
+  }
+}
+@media (max-width: 414px) {
+  .easy-online-divorce{
+    background: url(../images/mask-freedom.svg);
+    background-position: left -10% top 10%;
+    background-repeat: no-repeat;
+  }
+  .easy-online-divorce__content {
+    padding-top: 200px;
+  }
 }
 
 @media (max-width: 375px) {
@@ -51,8 +114,5 @@
     font-weight: bold;
     font-size: 18px;
     line-height: 24px;
-  }
-  .easy-online-divorce__images{
-    display: none;
   }
 }
